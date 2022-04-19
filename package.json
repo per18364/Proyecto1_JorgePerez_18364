@@ -4,7 +4,8 @@
   "description": "Proyecto 1: Pagina Web - Jorge Perez - 18364",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
   "author": "Jorge Perez - 18364",
   "license": "ISC",
