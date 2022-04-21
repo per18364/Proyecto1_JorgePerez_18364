@@ -1,6 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
-import 'semantic-ui-css/semantic.min.css';
+import SearchBar from './Components/searchBar.js';
 
-setTimeout(() => {
-    alert('Proyecto 1 xdxd');
-}, 2000);
+// ReactDOM.render(<SearchBar />, document.getElementById('searchBar'));
