@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import SearchBar from './Components/searchBar.js';
+import Header from './Components/header.js';
+import Slider from './Components/slider.js';
+import Content from './Components/content.js';
+import Footer from './Components/footer.js';
 
-// ReactDOM.render(<SearchBar />, document.getElementById('searchBar'));
+ReactDOM.render(<Header />, document.getElementById('header'));
+ReactDOM.render(<Slider />, document.getElementById('slider'));
+ReactDOM.render(<Content />, document.getElementById('content'));
+ReactDOM.render(<Footer />, document.getElementById('footer'));
