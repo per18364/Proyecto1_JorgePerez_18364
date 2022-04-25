@@ -1,0 +1,19 @@
+#searchBar{
+    width: 720px;
+    height: 34px;
+    float: left;
+    padding: 0 15px;
+}
+#search{
+    width: 170px;
+    height: 20px;
+    float: right;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #555555;
+    padding: 6px 12px;
+    margin: 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}

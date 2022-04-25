@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Components/header.js';
-import Slider from './Components/slider.js';
-import Content from './Components/content.js';
-import Footer from './Components/footer.js';
+import Header from './Components/header/header.js';
+import Slider from './Components/slider/slider.js';
+import Content from './Components/content/content.js';
+import Footer from './Components/footer/footer.js';
 
 ReactDOM.render(<Header />, document.getElementById('header'));
 ReactDOM.render(<Slider />, document.getElementById('slider'));

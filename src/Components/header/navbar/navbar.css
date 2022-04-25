@@ -1,0 +1,23 @@
+#navbar{
+    width: 940px;
+    height: 50px;
+    background-color: #2c3e50;
+    margin: 20px 0;
+    border-radius: 4px;
+    padding: 0 15px;
+    display: flex;
+}
+div{
+    align-items: center;
+}
+#user{
+    margin-left: auto;
+    margin-right: -15px;
+}
+a{
+    height: 24px;
+    width: fit-content;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: solid;
+}
