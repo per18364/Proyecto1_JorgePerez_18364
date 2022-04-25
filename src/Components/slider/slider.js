@@ -1,19 +1,12 @@
 import React from 'react';
+import './slider.css';
+import Slides from './slides/slides.js';
 
 export default function Slider() {
     return (
         <div id='containerSlider'>
             <div id='bodySlider'>
-                <div id='slides'>
-                    <div id='slide'>
-                        <div id='img'></div>
-                        <div id='title'></div>
-                    </div>
-                    <div id='slide'>
-                        <div id='img'></div>
-                        <div id='title'></div>
-                    </div>
-                </div>
+                <Slides />
             </div>
             <ul id='pages'>
                 <li>.</li>

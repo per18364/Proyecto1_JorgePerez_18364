@@ -1,0 +1,27 @@
+#containerSlider{
+    width: 940px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: transparent url(https://www.readmng.com/assets/img/slider-background.png);
+    border-radius: 0;
+}
+#bodySlider{
+    width: 930px;
+    height: 233px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    overflow: hidden;
+}
+#pages{
+    height: 30px;
+    background-color: aquamarine;
+    margin: 0 0 10px;
+}
+li{
+    width: 24px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}

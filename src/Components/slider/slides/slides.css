@@ -1,0 +1,22 @@
+#slides{
+    display: flex;
+    width: 11000px;
+    height: 100%;
+}
+#slide{
+    width: 134px;
+    height: 100%;
+}
+#slide:nth-child(2){
+    margin-left: 20px;
+}
+#img{
+    width: 100%;
+    height: 193px;
+    background-color: brown;
+}
+#title{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(115, 255, 96);
+}

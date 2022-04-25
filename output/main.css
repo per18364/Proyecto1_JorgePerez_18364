@@ -39,57 +39,6 @@ body{
     margin-bottom: 20px;
     display: block;
 }
-#containerSlider{
-    width: 970px;
-    height: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-    background-color: beige;
-}
-#bodySlider{
-    width: 930px;
-    height: 233px;
-    margin: 0 20px;
-    padding: 20px 0 10px;
-    background-color: red;
-    overflow: hidden;
-    
-}
-#slides{
-    display: flex;
-    width: 11000px;
-    height: 100%;
-    background-color: royalblue;
-}
-#slide{
-    width: 134px;
-    height: 100%;
-}
-#slide:nth-child(2){
-    margin-left: 20px;
-}
-#img{
-    width: 100%;
-    height: 193px;
-    background-color: brown;
-}
-#title{
-    width: 100%;
-    height: 40px;
-    background-color: rgb(115, 255, 96);
-}
-#pages{
-    height: 30px;
-    background-color: aquamarine;
-    margin: 0 0 10px;
-}
-li{
-    width: 24px;
-    padding: 5px;
-    display: inline-block;
-    position: relative;
-    left: 40%;
-}
 
 /*BODY*/
 #content{
@@ -190,10 +139,70 @@ div{
     margin-right: -15px;
 }
 a{
-    height: 24px;
+    height: 100%;
     width: fit-content;
     padding: 15px;
     color: #ffffff;
     text-decoration: solid;
 }
-
+#main{
+    background-color: #243342;
+}
+a:hover{
+    background-color: #243342;
+}
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Components/slider/slider.css ***!
+  \************************************************************************************/
+#containerSlider{
+    width: 940px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: transparent url(https://www.readmng.com/assets/img/slider-background.png);
+    border-radius: 0;
+}
+#bodySlider{
+    width: 930px;
+    height: 233px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    overflow: hidden;
+}
+#pages{
+    height: 30px;
+    background-color: aquamarine;
+    margin: 0 0 10px;
+}
+li{
+    width: 24px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+/*!*******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Components/slider/slides/slides.css ***!
+  \*******************************************************************************************/
+#slides{
+    display: flex;
+    width: 11000px;
+    height: 100%;
+}
+#slide{
+    width: 134px;
+    height: 100%;
+}
+#slide:nth-child(2){
+    margin-left: 20px;
+}
+#img{
+    width: 100%;
+    height: 193px;
+    background-color: brown;
+}
+#title{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(115, 255, 96);
+}

@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <div id='navbar'>
             <div id='home'>
-                <a href=''>
+                <a id='main' href=''>
                     <FaHome />
                     <b>HOME</b>
                 </a>

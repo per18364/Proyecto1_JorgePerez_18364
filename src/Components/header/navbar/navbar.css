@@ -15,9 +15,15 @@ div{
     margin-right: -15px;
 }
 a{
-    height: 24px;
+    height: 100%;
     width: fit-content;
     padding: 15px;
     color: #ffffff;
     text-decoration: solid;
+}
+#main{
+    background-color: #243342;
+}
+a:hover{
+    background-color: #243342;
 }
