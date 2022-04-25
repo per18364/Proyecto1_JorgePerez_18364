@@ -15,7 +15,7 @@
 }
 #pages{
     height: 30px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
     margin: 0 0 10px;
 }
 li{
@@ -24,4 +24,34 @@ li{
     display: inline-block;
     position: relative;
     left: 40%;
+}
+input[type='radio']{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: #2c3e50;
+    border-radius: 50%;
+}
+input[type='radio']:checked{
+    background-color: #d34836;
+}
+
+#right, #left{
+    width: 17px;
+    height: auto;
+    padding: 5px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin: auto 0 auto -15px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 4px;
+}
+#left{
+    transform: translate(-20%, -650%);
+}
+#right{
+    transform: translate(3550%, -650%);
 }

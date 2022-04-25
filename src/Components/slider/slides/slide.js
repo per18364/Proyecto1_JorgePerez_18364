@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Slide() {
+export default function Slide({ mangas }) {
     return (
         <div id='slide'>
-            <div id='img'></div>
-            <div id='title'></div>
+            <img id='img' src={mangas.src} width='134px' height='193px' />
+            <div id='title'>{mangas.name}</div>
         </div>
     );
 }

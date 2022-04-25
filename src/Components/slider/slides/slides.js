@@ -162,12 +162,45 @@ const Mangas5 = [
         views: 2682422,
     },
 ];
+const n = 6;
 
 export default function Slides() {
     return (
         <div id='slides'>
-            <Slide />
-            <Slide />
+            <Slide mangas={Mangas[0]} />
+            <Slide mangas={Mangas[1]} />
+            <Slide mangas={Mangas[2]} />
+            <Slide mangas={Mangas[3]} />
+            <Slide mangas={Mangas[4]} />
+            <Slide mangas={Mangas[5]} />
+
+            <Slide mangas={Mangas2[0]} />
+            <Slide mangas={Mangas2[1]} />
+            <Slide mangas={Mangas2[2]} />
+            <Slide mangas={Mangas2[3]} />
+            <Slide mangas={Mangas2[4]} />
+            <Slide mangas={Mangas2[5]} />
+
+            <Slide mangas={Mangas3[0]} />
+            <Slide mangas={Mangas3[1]} />
+            <Slide mangas={Mangas3[2]} />
+            <Slide mangas={Mangas3[3]} />
+            <Slide mangas={Mangas3[4]} />
+            <Slide mangas={Mangas3[5]} />
+
+            <Slide mangas={Mangas4[0]} />
+            <Slide mangas={Mangas4[1]} />
+            <Slide mangas={Mangas4[2]} />
+            <Slide mangas={Mangas4[3]} />
+            <Slide mangas={Mangas4[4]} />
+            <Slide mangas={Mangas4[5]} />
+
+            <Slide mangas={Mangas5[0]} />
+            <Slide mangas={Mangas5[1]} />
+            <Slide mangas={Mangas5[2]} />
+            <Slide mangas={Mangas5[3]} />
+            <Slide mangas={Mangas5[4]} />
+            <Slide mangas={Mangas5[5]} />
         </div>
     );
 }
