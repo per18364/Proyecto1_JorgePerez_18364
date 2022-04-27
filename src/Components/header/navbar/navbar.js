@@ -7,29 +7,29 @@ export default function Navbar() {
     return (
         <div id='navbar'>
             <div id='home'>
-                <a id='main' href=''>
+                <a id='main' className='link' href=''>
                     <FaHome />
                     <b>HOME</b>
                 </a>
-                <a href=''>
+                <a className='link' href=''>
                     <b>MANGA LIST</b>
                 </a>
-                <a href=''>
+                <a className='link' href=''>
                     <b>HOT MANGA</b>
                 </a>
-                <a href=''>
+                <a className='link' href=''>
                     <b>LATEST RELEASES</b>
                 </a>
-                <a href=''>
+                <a className='link' href=''>
                     <b>ADVANCED SEARCH</b>
                 </a>
             </div>
             <div id='user'>
-                <a href=''>
+                <a className='link' href=''>
                     <FaUserAlt />
                     <b>SIGN UP</b>
                 </a>
-                <a href=''>
+                <a className='link' href=''>
                     <IoLogInOutline />
                     <b>LOGIN</b>
                 </a>

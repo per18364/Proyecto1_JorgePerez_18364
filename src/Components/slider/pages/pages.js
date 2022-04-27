@@ -4,19 +4,19 @@ import '../slider.css';
 export default function Pages() {
     return (
         <>
-            <li>
+            <li id='page'>
                 <input type='radio' checked />
             </li>
-            <li>
+            <li id='page'>
                 <input type='radio' />
             </li>
-            <li>
+            <li id='page'>
                 <input type='radio' />
             </li>
-            <li>
+            <li id='page'>
                 <input type='radio' />
             </li>
-            <li>
+            <li id='page'>
                 <input type='radio' />
             </li>
         </>

@@ -14,7 +14,7 @@ div{
     margin-left: auto;
     margin-right: -15px;
 }
-a{
+.link{
     height: 100%;
     width: auto;
     padding: 15px;
@@ -24,6 +24,6 @@ a{
 #main{
     background-color: #243342;
 }
-a:hover{
+.link:hover{
     background-color: #243342;
 }
