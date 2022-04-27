@@ -43,28 +43,9 @@ body{
     height: 3258px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: olivedrab;
+    background-color: rgba(106, 142, 35, 0);
 }
-#contentTitle{
-    width: 624.66px;
-    height: 30px;
-    padding: 10px 11px 5px;
-    background-color: rosybrown;
-}
-#sideContent{
-    width: 293.33px;
-    height: 1890.47px;
-    padding: 15px 15px 0;
-    float: right;
-    margin-top: -45px;
-    background-color: darkmagenta;
-}
-#mainContent{
-    width: 616.66px;
-    height: 3183px;
-    padding: 15px;
-    background-color: cornflowerblue;
-}
+
 
 /*FOOTER*/
 #footer{

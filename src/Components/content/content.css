@@ -1,0 +1,27 @@
+#contentTitle{
+    width: 624.66px;
+    height: 30px;
+    padding: 10px 11px 5px;
+    background-color: #2c3e50;
+    border-radius: 4px 0 0;
+    color: #ffffff;
+    display: inline-block;
+}
+h3{
+    margin: 0;
+    width: fit-content;
+}
+#sideContent{
+    width: 293.33px;
+    height: 1890.47px;
+    padding: 15px 15px 0;
+    float: right;
+    background-color: #f5f1e8;
+    border-radius: 0 4px 0 0;
+}
+#mainContent{
+    width: 616.66px;
+    height: 3183px;
+    padding: 15px;
+    background-color: cornflowerblue;
+}

@@ -5,7 +5,7 @@ export default function Pages() {
     return (
         <>
             <li>
-                <input type='radio' checked='checked' />
+                <input type='radio' checked />
             </li>
             <li>
                 <input type='radio' />

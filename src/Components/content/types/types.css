@@ -1,0 +1,18 @@
+.types{
+    width: 15px;
+    height: auto;
+    padding: 0 5px;
+    color: #ffffff;
+    float: right;
+    transform: translate(0, -80%);
+}
+#normal{
+    background-color: #b03626;
+    border-radius: 2px 0 0 2px;
+}
+#list, #layout{
+    background-color: #d34836;
+}
+#layout{
+    border-radius: 0 2px 2px 0;
+}
