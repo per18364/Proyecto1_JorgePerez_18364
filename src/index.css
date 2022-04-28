@@ -40,7 +40,7 @@ body{
 /*BODY*/
 #content{
     width: 970px;
-    height: 3258px;
+    height: auto;
     padding: 0 15px;
     margin: 0 auto;
     background-color: rgba(106, 142, 35, 0);

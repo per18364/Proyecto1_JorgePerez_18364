@@ -1,0 +1,46 @@
+#updates{
+    width: 99%;
+    height: auto;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 5px 0;
+}
+#updatesDescription{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px dashed #ccc;
+    margin: 14px 0 17px;
+}
+#updatename{
+    width: 100%;
+    height: 16px;
+}
+#updateMain{
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#hot{
+    color: #d34836;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#date{
+    font-weight: bold;
+    float: right;
+    line-height: 22px;
+}
+dd{
+    margin-left: 24px;
+    height: 22px;
+}
+#updated{
+    color: #45433f;
+    text-decoration: none;
+    align-self: center;
+}
+#updateMain:hover, #updated:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

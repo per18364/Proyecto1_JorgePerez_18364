@@ -8,6 +8,8 @@
 }
 #subtitle{
     margin-left: 11px;
+    color: #ffffff;
+    font-size: 13px;
 }
 #icons{
     background-color: #1a242f;
@@ -199,7 +201,7 @@ svg{
     font-size: 10px;
     text-shadow: 1px 1px 0 #ede6d6;
 }
-#number{
+#number:hover{
     color: #d34836;
     background-color: #ffffff;
 }

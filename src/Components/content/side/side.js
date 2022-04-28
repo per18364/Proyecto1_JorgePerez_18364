@@ -237,6 +237,14 @@ export default function Side() {
                 <Category cat={cats[34]} />
                 <Category cat={cats[35]} />
             </div>
+            <div id='title'>
+                <span id='icons'>
+                    <FaAngleRight id='angleRight' />
+                </span>
+                <h3 id='subtitle'>
+                    <b>Isekai</b>
+                </h3>
+            </div>
         </>
     );
 }
