@@ -5,7 +5,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 export default function NextPage() {
     return (
         <div id='nextPages'>
-            <a id='main'>1</a>
+            <a id='mainbtn'>1</a>
             <a id='btn'>2</a>
             <a id='btn'>3</a>
             <a id='btn'>4</a>
